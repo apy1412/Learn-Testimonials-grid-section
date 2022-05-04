@@ -13,16 +13,16 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
-.container {
-    padding: 10px 20px;
-    margin: 50px auto;
+.main {
+    padding: 10px;
+    margin: 20px auto;
 }
 
 .one {
     background-color: hsl(263, 55%, 52%);
     color: hsl(0, 0%, 100%);
     border-radius: 15px;
-    padding: 20px;
+    padding: 15px;
     background-image: url("images/bg-pattern-quotation.svg");
     background-repeat: no-repeat;
     background-position: top right 10%;
@@ -33,14 +33,14 @@ body {
     background-color: hsl(217, 19%, 35%);
     color: hsl(0, 0%, 100%);
     border-radius: 15px;
-    padding: 20px;
+    padding: 15px;
     grid-area: two;
 }
 
 .three {
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
-    padding: 20px;
+    padding: 15px;
     color: hsl(217, 19%, 30%);
     grid-area: three;
 }
@@ -49,14 +49,14 @@ body {
     background-color: hsl(219, 29%, 14%);
     color: hsl(0, 0%, 100%);
     border-radius: 15px;
-    padding: 20px;
+    padding: 15px;
     grid-area: four;
 }
 
 .five {
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
-    padding: 20px;
+    padding: 15px;
     grid-area: five;
 }
 
@@ -70,12 +70,12 @@ img {
 }
 
 .title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .quote,
 .education {
-    font-size: 1.15rem;
+    font-size: 1rem;
     color: hsl(0, 0%, 60%)
 }
 

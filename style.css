@@ -1,4 +1,4 @@
-.container {
+.main {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: "one" "two" "three" "four" "five";
@@ -6,7 +6,7 @@
 }
 
 @media (min-width:660px) {
-    .container {
+    .main {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas: "one one five " "two three five" "four four four";
@@ -14,7 +14,7 @@
 }
 
 @media (min-width:960px) {
-    .container {
+    .main {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: "one one two five" "three four four five";
