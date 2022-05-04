@@ -23,7 +23,7 @@ body {
     color: hsl(0, 0%, 100%);
     border-radius: 15px;
     padding: 20px;
-    background-image: url(/images/bg-pattern-quotation.svg);
+    background-image: url(images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position: top right 10%;
     grid-area: one;
