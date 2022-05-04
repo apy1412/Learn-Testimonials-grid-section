@@ -18,5 +18,6 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: "one one two five" "three four four five";
+        max-width: 1440px;
     }
 }
